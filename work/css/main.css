@@ -1,0 +1,81 @@
+/***** BASE STYLES *****/
+body {
+    background-color:lightgray;
+    color:rgba(59, 2, 59, 0.377);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+    width: 800px;
+}
+.half-width {
+    float: left;
+    overflow: auto;
+    text-align: left;
+    width: 800px;
+}
+.third-width {
+    overflow: auto;
+    text-align: left;
+    width: 800px;
+}
+
+/***** HEADER *****/
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 80px;
+}
+
+header h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 65px 0 45px 25px;
+    text-decoration: italic;
+}
+/**** MAIN ****/
+#project-descriptions h2 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+#project-descriptions p {
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#project-descriptions .half-width {
+    overflow: auto;
+    text-align: center;
+    width: 400px;
+}
+
+/***** FOOTER *****/
+#contact h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 65px 0 10px 15px;
+    text-align: center;
+    text-decoration: bold;
+}
+#contact .half-width {
+    color: black;
+    overflow: auto;
+    text-align: center;
+    width: 400px;
+}
